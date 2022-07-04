@@ -25,6 +25,10 @@ main{
   position: relative;
 }  
 
+.stepbox:last-child{
+  margin-right: 0;
+}
+
 .stepboximg{
   background-image: url(img/flow01.png);
   background-position: bottom;
@@ -81,6 +85,10 @@ footer{
   .stepbox{
     width: 90%;
     margin-bottom: 20px;
+  }
+  
+  .stepbox:last-child{
+    margin-bottom: 0;
   }
   
   footer{
