@@ -84,11 +84,12 @@ footer{
   
   .stepbox{
     width: 90%;
-    margin-bottom: 20px;
+    margin: 20px auto;
   }
   
   .stepbox:last-child{
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    margin-right: auto;
   }
   
   footer{
